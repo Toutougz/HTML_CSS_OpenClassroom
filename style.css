@@ -10,6 +10,8 @@ a{
     text-decoration: none;
 }
 
+
+
 em{
     color: #A5B4FC;
     font-style: normal;
@@ -30,17 +32,31 @@ p, li{
     color: #F9F8FF;
 }
 
-
-
-
 .entete,.pied-de-page{
     background-color: white;
 }
 
+
 .cta{
-    color: white;
     background: linear-gradient(#8E86B5,#ACAEED);
+    color: white;
     border-radius: 50px;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.cta:hover{
+    background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+
+
+.lien-icone:hover{
+    opacity: 0.5;
 }
 
 .carre-contenu{
@@ -48,3 +64,4 @@ p, li{
     border-right: #8E86B5 1px solid;
 
 }
+
