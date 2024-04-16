@@ -32,10 +32,9 @@ p, li{
     color: #F9F8FF;
 }
 
-.entete,.pied-de-page{
+header,footer{
     background-color: white;
 }
-
 
 .cta{
     background: linear-gradient(#8E86B5,#ACAEED);
